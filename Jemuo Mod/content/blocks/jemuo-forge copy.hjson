@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Jemuo Forge
+description: Combines copper and water to make Jemuo.
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.9
+  items: {
+    items: [
+      Copper/2
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 1
+  }
+}
+requirements: [
+  lead/70
+  thorium/80
+  silicon/60
+  silver/50
+]
+category: crafting
+research: jemuo-crucible
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: jemuo/1

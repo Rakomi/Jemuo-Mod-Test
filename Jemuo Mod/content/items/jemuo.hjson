@@ -1,0 +1,6 @@
+type: material
+name: Jemuo
+description: A thick resource.
+hardness: 3
+cost: 3
+color: 61cb8a
